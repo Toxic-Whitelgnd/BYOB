@@ -60,7 +60,7 @@ const NavBar = () => {
                 </li>
                 <li className="nav-item">
                   <NavLink
-                    to="/blog"
+                    to="/shoes"
                     className="nav-link pe-4 text-light"
                     aria-current="page"
                     activeClassName="active"
@@ -73,7 +73,7 @@ const NavBar = () => {
                 </li>
                 <li className="nav-item">
                   <NavLink
-                    to="/Aboutus"
+                    to="/watches"
                     className="nav-link pe-4 text-light"
                     aria-current="page"
                     activeClassName="active"

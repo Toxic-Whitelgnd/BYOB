@@ -3,7 +3,9 @@ import './App.css';
 import Navbar from './Components/NavBar/navbar';
 import Home from './Components/HomePage/home';
 import { HashRouter as Router, Routes ,Route } from 'react-router-dom';
-import Materials from './Components/MiddleSection/materials';
+import Shoes from './Components/Shoes/Shoes';
+import Footer from './Components/Footer/footer';
+import Watches from './Components/Watches/watches';
 
 function App() {
   return (
@@ -12,8 +14,10 @@ function App() {
     <Navbar />
     <Routes>
     <Route path='/' index element={<Home />}/>
-    <Route path='/materials' index element={<Materials />}/>
+    <Route path='/shoes' index element={<Shoes />}/>
+    <Route path='/watches' index element={<Watches />}/>
     </Routes>
+    <Footer />
     </Router>
     </>
   );
