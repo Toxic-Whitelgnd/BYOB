@@ -1,0 +1,25 @@
+.awssld__controls button {
+
+    --slider-height-percentage: 60%;
+    --slider-transition-duration: 700ms;
+    --organic-arrow-thickness: 5px;
+    --organic-arrow-border-radius: 22px;
+    --organic-arrow-height: 28px;
+    --organic-arrow-color: #d5d5d5;
+    --control-button-width: 8%;
+    --control-button-height: 75%;
+    --control-button-background: transparent;
+    --control-bullet-color: #fafafa;
+    --control-bullet-active-color: #d5d5d5;
+    --loader-bar-color: transparent;
+    --loader-bar-height: 6px;
+    }
+.img-container{
+    width: 1381px;
+    height: 500px;
+}
+
+.img-control{
+    width: 1381px;
+    height: 500px;
+}

@@ -1,0 +1,22 @@
+.NavBarSection {
+    font-size: 1.07rem;
+  }
+  .navbar-toggler{
+    color: white !important;
+  }
+  .navbar
+  {
+    
+    z-index: 99;
+    background-color: var(--primary);
+    
+  }
+
+  .nav-link:hover{
+    color: var(--quadinary) !important;
+  }
+  .active{
+    color: var(--tertiary) !important;
+    font-weight: 600;
+  }
+  
